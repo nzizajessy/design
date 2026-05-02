@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Website</title>
-  <link rel="stylesheet" href="i.css">
+    <meta charset="UTF-8">
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="i.css">
 </head>
 <body>
 
-  <header>
-    <h1 class="logo">MySite</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">PraRoz</h2>
+            </div>
 
-  <section class="hero">
-    <div class="content">
-      <h2>Build Stunning Websites</h2>
-      <p>Create modern, responsive, and clean designs easily.</p>
-      <button>Get Started</button>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+        </div> 
+        
+        <div class="content">
+            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque <br> expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus <br> a quae earum possimus voluptates rem maxime.</p>
+            
+            <button class="cn"><a href="#">JOIN US</a></button>
+
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <button class="btnn"><a href="#">Login</a></button>
+                
+                <p class="link">Don't have an account?<br>
+                <a href="#">Sign up </a> here</p>
+                <p class="liw">Log in with</p>
+
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
-
-  <section class="features">
-    <div class="card">
-      <h3>Fast</h3>
-      <p>Optimized for speed and performance.</p>
-    </div>
-
-    <div class="card">
-      <h3>Responsive</h3>
-      <p>Looks perfect on all devices.</p>
-    </div>
-
-    <div class="card">
-      <h3>Modern</h3>
-      <p>Clean and professional UI design.</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2026 MySite. All rights reserved.</p>
-  </footer>
-
+    
+    <!-- Script for Ionicons used in the social media links -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
